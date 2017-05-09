@@ -268,7 +268,7 @@ where $A = {w_1,w_2,...,w_k}$ is the set of clusters and $B = {c_1,c_2,...,c_j}$
 Purity:  <span style="color: #009999">0.9102803738317757</span>
 </pre></div>
 
-<p>We see that our purity was ~0.91. If our clustering algoright did a perfect job our purity would be 1.0. Our purity value is very high and is a good indicator that our clustering did a good job.</p>
+<p>We see that our purity was ~0.91. If our clustering algorithm did a perfect job our purity would be 1.0. Our purity value is very high and is a good indicator that our clustering did a good job.</p>
 
 <h1>Conclusion:</h1>
 <p>Looking across all 100 book title clusters we see that KMeans with tf-idf features worked well. This highlights the case that if we have to cluster short text documents where there are some nearly identical words in each document then using tf-idf with KMeans is not a problem. If for instance, we had 140 character tweets, tf-idf and KMeans might not give us great clustering as there may not be many words in common across tweets clustered based on user.</p>
