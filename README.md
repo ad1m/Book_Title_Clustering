@@ -1,2 +1,2 @@
 # Book_Title_Clustering
-Clustering Book Titles
+Traditionally, tf-idf feature vectors on short documents produce sparse feature vectors that do not cluster well with Kmeans. In this counter example we scrape book titles from Amazon's recommended reading, create some modified book titles based on the original title, create tf-idf features for each book title, and pass them into a KMeans clustering algorithm. Here we should see that our short text clusters contain similar books.  
